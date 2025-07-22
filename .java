@@ -1,6 +1,6 @@
 class hello
 {
-    public static void main (string a[])
+    public static void main (string args[])
     {
         system.out.print("Om Namashivaya");
     }
