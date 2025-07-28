@@ -1,0 +1,11 @@
+class Hello
+{
+    public static void main(String[] args)
+    {
+        String num1 = "Loki ";
+        String num2 = "IPS";
+        String result=num1+num2;
+        System.out.println(result);
+        
+    }
+}
