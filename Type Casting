@@ -1,0 +1,10 @@
+class Hello
+{
+    public static void main(String[] args)
+    {
+       byte b=125;
+       int a=257;
+       byte k=(byte)a;
+       System.out.println(k);
+    }
+}
