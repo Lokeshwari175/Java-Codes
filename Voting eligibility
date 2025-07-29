@@ -1,0 +1,16 @@
+class Hello
+{
+    public static void main (String args[])
+    {
+        int age=10;
+        int votingage=18;
+        if (age>=votingage)
+        {
+            System.out.println("accepted for voting");
+        }
+        else
+        {
+            System.out.println("not accepted for voting");
+        }
+    }
+}
