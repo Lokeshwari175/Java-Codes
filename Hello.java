@@ -1,7 +1,7 @@
-class hello
+class Hello
 {
-    public static void main (string args[])
+    public static void main (String args[])
     {
-        system.out.print("Om Namashivaya");
+        System.out.print("Om Namashivaya");
     }
 }
