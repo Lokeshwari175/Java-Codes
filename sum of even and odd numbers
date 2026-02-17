@@ -1,0 +1,22 @@
+public class num
+{
+    public static void main(String[] args) 
+    {
+        int num = 26;
+        int evenSum = 0;
+        int oddSum = 0;
+        while(num>0)
+        {
+        if(num%2==0)
+        {
+            evenSum = evenSum+num;
+    }
+    else{
+        oddSum = oddSum+num;
+    }
+    num--;
+        }
+    System.out.println("sum of even numbers="+ evenSum);
+    System.out.println("sum of odd numbers="+ oddSum);
+}
+}
