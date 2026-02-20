@@ -1,0 +1,28 @@
+class Palindrome{
+    static int rev_number(int x)
+    {
+        int rev1=0;
+        while(x>0)
+        {
+             int d=x%10;
+             rev1=rev1*10+d;
+             x=x/10;
+        }
+        return rev1;
+    }
+    public static void main(String[] args) 
+    {
+        int n = 121;
+        int rev = rev_number(n);
+        if(n==rev)
+        {
+            System.out.println("the n is palindrome");
+        }
+        else
+        {
+            System.out.println("the n is not palindrome");
+        }
+        
+    }
+}    
+            
