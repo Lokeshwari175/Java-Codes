@@ -1,0 +1,22 @@
+class Armstrong1    //without function call
+{
+    public static void main(String[] args)
+    {
+        int n=153;
+        int temp=n;
+        int count = (int)Math.log10(n)+1;
+        int sum=0;
+        while(n > 0)
+        {
+            int d=n%10;
+           int pow=(int)Math.pow(d,count);
+            sum=sum+pow;
+            n=n/10;
+        }
+
+        if(temp==sum)
+        System.out.println( "Armstrong number");
+        else
+        System.out.println(" Not an Armstrong number");
+    }
+}
