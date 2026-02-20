@@ -1,0 +1,39 @@
+public class MaxDigit {
+    public static void main(String[] args) {
+
+        int n = 1234;
+        int max = 0;
+
+        while(n > 0) {
+            int digit = n % 10;   
+
+            if(digit > max) {
+                max = digit;
+            }
+
+            n = n / 10;  
+        }
+
+        System.out.println("Maximum digit: " + max);
+    }
+}
+
+
+
+class Max2 {
+    public static void main(String[] args) {
+        {
+            int l = 12676;
+            int max = Integer.MIN_VALUE;
+            while(l>0)
+            {
+                int d=l%10;
+                
+                if(d>max)
+                max=d;
+                l=l/10;
+            }
+            System.out.println(max);
+        }
+    }
+}
