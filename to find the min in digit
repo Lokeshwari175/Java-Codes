@@ -1,0 +1,41 @@
+public class MinDigit {
+    public static void main(String[] args) {
+
+        int n = 1234;
+        int min = 9;
+
+        while(n > 0) {
+            int digit = n % 10;
+
+            if(digit < min) {
+                min = digit;
+            }
+
+            n = n / 10;
+        }
+
+        System.out.println("Minimum digit: " + min);
+    }
+}
+
+
+
+
+
+class Min2 {
+    public static void main(String[] args) {
+        {
+            int l = 12676;
+            int min = Integer.MAX_VALUE;
+            while(l>0)
+            {
+                int d=l%10;
+                
+                if(d<min)
+                min=d;
+                l=l/10;
+            }
+            System.out.println(min);
+        }
+    }
+}
